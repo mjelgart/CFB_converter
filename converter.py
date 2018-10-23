@@ -180,3 +180,5 @@ while True:
   with open('result.csv', 'w') as result_file:
     for line in games_info:
       result_file.write(line+"\n")
+
+  games_info = []
